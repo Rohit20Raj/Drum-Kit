@@ -78,9 +78,9 @@ img{
 }
 @media screen and (max-width: 1000px) {
     .kit{
-        margin-top: 10vh;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 10vh auto;
+        /* margin-left: auto;
+        margin-right: auto; */
     }
 }
 /* @media screen and (max-width: 610px) {
