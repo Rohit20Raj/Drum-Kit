@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+}
+button{
+    background-color: white;
+    /* border: 5px solid rgba(255, 255, 255, 0.267); */
+    border-radius: 10px;
+    width: 125px;
+    height: 100px;
+}
+.w{
+    background-image: url(images/tom1.png);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: white;
+}
+.a{
+    background-image: url(images/tom2.png);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: white;
+}
+.s{
+    background-image: url(images/tom3.png);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: white;
+}
+.d{
+    background-image: url(images/tom4.png);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: white;
+}
+.j{
+    background-image: url(images/snare.png);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.k{
+    background-image: url(images/crash.png);
+    background-position-x: center;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+.l{
+    background-image: url(images/kick.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 100px;
+}
+.kit{
+    margin: 30vh 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+@media screen and (max-width: 1000px) {
+    .kit{
+        margin-top: 10vh;
+    }
+}
+@media screen and (max-width: 645px) {
+    .kit{
+        gap:5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
